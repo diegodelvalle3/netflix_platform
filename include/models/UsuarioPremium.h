@@ -5,7 +5,7 @@
 
 class UsuarioPremium : public Usuario {
 private:
-    string calidad = "4K";
+    string calidad;
     vector<ItemCatalogo*> descargas;
     Suscripcion suscripcion;
 public:

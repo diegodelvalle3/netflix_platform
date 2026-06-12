@@ -4,7 +4,7 @@
 
 class UsuarioGratuito : public Usuario {
 private:
-    string calidad = "1080p";
+    string calidad;
 public:
     UsuarioGratuito(string _id, string _nombre, string _correo, string _password);
     bool puedeReproducir(ItemCatalogo* item) override;

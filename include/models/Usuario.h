@@ -2,6 +2,7 @@
 #define USUARIO_H
 #include <string>
 #include <vector>
+#include "services/ItemCatalogo.h"
 using namespace std;
 
 class Usuario{
